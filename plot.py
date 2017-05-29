@@ -59,7 +59,7 @@ if __name__=='__main__':
     import argparse, sys
     import numpy as np
     parser = argparse.ArgumentParser(description='''General plot function based on matplotlib''')
-    parser.add_argument('-i', help='the input dlg file.')
+    parser.add_argument('-i', help='the input data file.')
     parser.add_argument('-bar', action="store_true", help='plot bar chart')
     parser.add_argument('-scattor', action="store_true", help='plot scattor')
     parser.add_argument('-save', action="store_true", help="instead of showing plot, save the figure with supplied name.")
