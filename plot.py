@@ -24,7 +24,7 @@ def plotting(data, titles, bar=False, scattor=False, save=False, save_fig_name='
         fig = plt.figure(figsize=(6, 8))
 
     fig.subplots_adjust(wspace=0.5, bottom=0.2)
-    ymax, ymin = data[1:].max()+.5, data[1:].min()-.5
+    ymax, ymin = data[1:].max()*1.05, data[1:].min()*0.95
 
     if scattor==True:
         if 0<=data.shape[1]<=50:
