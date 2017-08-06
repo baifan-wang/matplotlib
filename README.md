@@ -21,5 +21,5 @@ Usage:
 python rmsd_s2.py -i rms2d.dat -save xxx.png
 ```
 If '-save' option is not presented, the image will directly display.    
-[rmsd_2d.zip](https://github.com/baifan-wang/matplotlib/blob/master/rmsd_2d.zip) example data of the 2D RMSD data.    
+[rmsd_2d.zip](https://github.com/baifan-wang/matplotlib/blob/master/rmsd_2d.zip): example data of the 2D RMSD data.    
 ![rmsd 2d plot example](https://github.com/baifan-wang/matplotlib/blob/master/rmsd_2d.png)
